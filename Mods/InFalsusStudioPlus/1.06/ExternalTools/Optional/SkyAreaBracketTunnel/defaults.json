@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "createGroup": true,
+  "values": [
+    {
+      "key": "mode",
+      "value": "grid"
+    },
+    {
+      "key": "subdivision",
+      "value": "16"
+    },
+    {
+      "key": "count",
+      "value": "16"
+    },
+    {
+      "key": "durationMs",
+      "value": "1"
+    },
+    {
+      "key": "includeEnd",
+      "value": "true"
+    },
+    {
+      "key": "endShape",
+      "value": "follow"
+    },
+    {
+      "key": "deleteSource",
+      "value": "false"
+    }
+  ]
+}

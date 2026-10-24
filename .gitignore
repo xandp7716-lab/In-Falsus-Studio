@@ -17,6 +17,9 @@
 /Mods/**/InfStudioVisualUI.dll
 /Mods/**/bin/
 /Mods/**/obj/
+/Mods/**/Tests/Results/
+/Mods/**/pattern.json
+/Mods/**/ScriptCache/
 
 # Song audio imported while using the editor is a local, regenerable cache.
 /Assets/InFalsusStudioUser/

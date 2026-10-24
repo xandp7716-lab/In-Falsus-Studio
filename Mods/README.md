@@ -4,6 +4,7 @@
 
 当前配套版本：
 
+- [InFalsus Studio+ 1.06](InFalsusStudioPlus/1.06/README.md)：当前 `infstudioplus` 源码节点，内部程序集 1.0.70。包含统一 UI/视觉、编辑与预览优化、时间组/快速工具、可修改热键和通用外置工具；保留 M＋ 与亮蓝 Mei 配套图形。
 - [Visual & UI 1.0.39](VisualUI/1.0.39/README.md)：组合视觉与制谱器功能插件，附带时间组兼容说明和三个默认外置 Timing 工具。该源码节点不包含 DLL、BepInEx 依赖或游戏提取资源。
 - [Better UI 1.2.2](BetterUI/1.2.2/README.md)：改进制谱器 UI。
 - [Native Visual 1.1.15](NativeVisual/1.1.15/README.md)：还原原生轨道、HUD 与背景视觉，并提供美化进度条。

@@ -6,6 +6,7 @@
 
 ## 未发布
 
+- **[非官方壳子 · InFalsus Studio Windows Mono 1.0.10 / 时间组目标壳子 inf-mod6 1.0.6 build 25797904]** 收录 **InFalsus Studio+ 1.06 / 内部 1.0.70**，fork 项目名改为 `infstudioplus`。更新编辑/预览优化、时间组/时序列表缓存与虚拟化、快速工具、可修改热键和鼠标按键、按 Win 键切窗后的输入恢复；粘贴保留原组号和时间组。通用外置接口支持 SPC 语句与批量补丁，旧接口继续兼容；括号头隧道和随机散布作为可选工具源码。加入 M＋ 图标与亮蓝 Q 版 Mei 设置描边图。官方游戏不提供这些扩展语义；目标壳子游戏内判定/播放未验证，保存保留扩展文本，不提供静默官方转换。见 [1.06 说明](docs/releases/1.06.md) 与 [兼容性](Mods/InFalsusStudioPlus/1.06/COMPATIBILITY.md)。本次仅源码、作者性素材与构建说明，不提交运行依赖、编译程序或个人数据。
 - **[非官方壳子 · InFalsus Studio Windows Mono 1.0.10 / 时间组目标壳子 inf-mod6 1.0.6]** 收录 Visual & UI 1.0.39 整合插件源码和三个默认外置工具（渐变 Timing、删除 Timing、复制 Timing）。插件包含编辑器侧 timinggroup/noinput/noclip/hidegroup 语法支持；官方本体不实现这些语义，文件保存会保留扩展语句，不提供转成官方格式的静默转换。目标游戏内判定/播放行为未验证；插件测试边界和兼容说明见 [Visual & UI 1.0.39](Mods/VisualUI/1.0.39/COMPATIBILITY.md)。源码仓库不收录整合 ZIP、编译 DLL、BepInEx 运行依赖、原生游戏资源或个人设置。
 - **[非官方壳子 · InFalsus Studio Windows 1.0.10]** 收录 Native Visual 1.1.15 与 Better UI 1.2.2 插件源码。提供本体风格的原生视觉、中央粒子逸散和进度条，以及底栏节拍细分布局与自动播放图标清理。无新增谱面语句、参数或序列化语义；用户程序未启动，实际交互与最终游玩画面尚未验收。
 

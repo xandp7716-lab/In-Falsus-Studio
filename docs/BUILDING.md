@@ -1,5 +1,7 @@
 # 打开、检查和构建
 
+当前 InFalsus Studio+ 1.06 插件的构建与更新请先看 [对应说明](../Mods/InFalsusStudioPlus/1.06/BUILDING.md)。本页保留原 Unity 编辑器核心的构建流程；这两条构建链分别管理，不会自动互相安装。
+
 ## 环境
 
 使用 `ProjectSettings/ProjectVersion.txt` 指定的 **Unity 6000.3.25f1**，安装 Windows 构建支持。目标为 Windows x64 / Mono，URP 17.3.0。保留 `Packages/manifest.json` 和锁文件，不需要从旧更新包复制资源。

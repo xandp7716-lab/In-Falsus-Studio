@@ -6,7 +6,13 @@
 
 社区修改本体后增加的 `timinggroup` 是**非官方壳子扩展**，不能描述成原游戏已支持的参数。编辑器核心仍未实现它；可选的 Visual & UI 1.0.39 插件在编辑器侧提供有限支持，见下文。后续新增或修改这类功能时，必须遵循 [CONTRIBUTING.md](../CONTRIBUTING.md) 的标题、正文与公告标记要求。
 
-## Visual & UI 插件扩展（1.0.39）
+## InFalsus Studio+ 插件扩展（1.06，内部 1.0.70）
+
+当前 fork 的插件源码位于 [Mods/InFalsusStudioPlus/1.06](../Mods/InFalsusStudioPlus/1.06/README.md)。它面向原 Windows Mono 1.0.10，安装为显式启用；沿用下方时间组语法，补充通用外置 SPC 补丁接口。完整语法、目标壳子和验证边界见该节点的 [COMPATIBILITY.md](../Mods/InFalsusStudioPlus/1.06/COMPATIBILITY.md)。
+
+1.06 插件的复制粘贴**保留原 SkyArea groupid 与各时间组**；这项用户要求覆盖下文记录的原编辑器“默认粘贴不写组号”规则。基础 Unity 核心未安装插件时仍沿用原行为。未知语句可通过通用接口保留，不表示预览器实现了其行为，也不构成官方格式转换。
+
+## 历史 Visual & UI 插件扩展（1.0.39）
 
 插件源码和三个默认外置工具见 [Mods/VisualUI/1.0.39](../Mods/VisualUI/1.0.39/README.md)。这是安装到 InFalsus Studio Windows Mono 1.0.10 的可选 BepInEx 插件；未安装插件的原版编辑器不获得这些编辑语义。安装后，插件识别扩展语句并提供编辑 UI，不会在打开时自动迁移谱面。具体目标游戏壳子版本、语法及限制以该插件的[兼容性说明](../Mods/VisualUI/1.0.39/COMPATIBILITY.md)为准。
 

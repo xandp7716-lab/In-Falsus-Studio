@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "id": "BlacklinePatternScatter",
+  "name": "随机散布工具",
+  "nameEn": "Random Scatter",
+  "order": 30,
+  "script": "Tool.ps1",
+  "output": "spc",
+  "capture": true,
+  "description": "捕获任意 Flick / SkyArea；每份散布完整复制捕获图案，只平移时间和 X。保留宽度、缓动、持续时间、Flick 方向和附加参数，不再转换为黑线，不缩放。显式 SkyArea 组号按副本重映射。旧版路径缓存需重新捕获一次。",
+  "descriptionEn": "Capture any Flick / SkyArea notes. Each copy retains the whole captured pattern and only translates time and X. Widths, easing, durations, Flick directions and extra parameters are retained; no blackline conversion or scaling. Explicit SkyArea group IDs are remapped per copy. Recapture once if using an old sampled-path cache.",
+  "fields": [
+    {
+      "key": "start",
+      "label": "开始时间 / ms",
+      "labelEn": "Start / ms",
+      "type": "time",
+      "defaultValue": "0",
+      "options": []
+    },
+    {
+      "key": "end",
+      "label": "结束时间 / ms",
+      "labelEn": "End / ms",
+      "type": "time",
+      "defaultValue": "1000",
+      "options": []
+    },
+    {
+      "key": "xMin",
+      "label": "X 最小值",
+      "labelEn": "X min",
+      "type": "number",
+      "defaultValue": "-0.5",
+      "options": []
+    },
+    {
+      "key": "xMax",
+      "label": "X 最大值",
+      "labelEn": "X max",
+      "type": "number",
+      "defaultValue": "1.5",
+      "options": []
+    },
+    {
+      "key": "count",
+      "label": "图案份数",
+      "labelEn": "Pattern copies",
+      "type": "integer",
+      "defaultValue": "10",
+      "options": []
+    },
+    {
+      "key": "minGapMs",
+      "label": "最小间距 / ms",
+      "labelEn": "Min gap / ms",
+      "type": "integer",
+      "defaultValue": "0",
+      "options": []
+    },
+    {
+      "key": "seed",
+      "label": "随机种子 · 0 随机",
+      "labelEn": "Seed · 0 for random",
+      "type": "integer",
+      "defaultValue": "0",
+      "options": []
+    }
+  ],
+  "captureKind": "air",
+  "groupMode": "noinput"
+}

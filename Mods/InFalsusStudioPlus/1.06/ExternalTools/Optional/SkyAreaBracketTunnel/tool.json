@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "id": "SkyAreaBracketTunnel",
+  "name": "括号头隧道",
+  "nameEn": "SkyArea Bracket Tunnel",
+  "order": 45,
+  "script": "Tool.ps1",
+  "output": "spc",
+  "selection": "skyarea",
+  "gridField": "subdivision",
+  "groupMode": "noinput",
+  "capture": false,
+  "description": "选中一条或多条 SkyArea，按所在时间组的网格或指定数量生成短 SkyArea 括号头（默认 1ms）。宽度与左右缓动按原轨迹采样，每个头使用独立组号。默认新建 noinput 组、保留原紫条。",
+  "descriptionEn": "Select SkyAreas and sample short SkyArea brackets (1ms by default) by their own group-local grid or count. Preserves sampled width and edge easing; each bracket uses a unique group ID. Creates a noinput group and keeps the originals by default.",
+  "fields": [
+    {
+      "key": "mode",
+      "label": "采样方式",
+      "labelEn": "Sampling",
+      "type": "choice",
+      "defaultValue": "grid",
+      "options": [
+        {
+          "value": "grid",
+          "label": "按网格",
+          "labelEn": "Grid"
+        },
+        {
+          "value": "count",
+          "label": "按个数",
+          "labelEn": "Count"
+        }
+      ]
+    },
+    {
+      "key": "subdivision",
+      "label": "网格细分 1/N",
+      "labelEn": "Subdivision 1/N",
+      "type": "integer",
+      "defaultValue": "16",
+      "options": []
+    },
+    {
+      "key": "count",
+      "label": "每条括号头个数",
+      "labelEn": "Brackets per source",
+      "type": "integer",
+      "defaultValue": "16",
+      "options": []
+    },
+    {
+      "key": "durationMs",
+      "label": "单条时长 / ms",
+      "labelEn": "Bracket duration / ms",
+      "type": "integer",
+      "defaultValue": "1",
+      "options": []
+    },
+    {
+      "key": "includeEnd",
+      "label": "包含终点",
+      "labelEn": "Include end",
+      "type": "bool",
+      "defaultValue": "true",
+      "options": []
+    },
+    {
+      "key": "endShape",
+      "label": "单条尾部形态",
+      "labelEn": "Bracket end shape",
+      "type": "choice",
+      "defaultValue": "follow",
+      "options": [
+        {
+          "value": "follow",
+          "label": "跟随原轨迹",
+          "labelEn": "Follow source"
+        },
+        {
+          "value": "flat",
+          "label": "首尾同形",
+          "labelEn": "Flat"
+        }
+      ]
+    },
+    {
+      "key": "deleteSource",
+      "label": "生成后删除原紫条",
+      "labelEn": "Delete source after generating",
+      "type": "bool",
+      "defaultValue": "false",
+      "options": []
+    }
+  ]
+}

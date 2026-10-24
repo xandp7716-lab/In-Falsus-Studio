@@ -1,5 +1,7 @@
 # 开发入口与稳定规则
 
+本 fork 当前增强节点为 [InFalsus Studio+ 1.06 / 内部 1.0.70](../Mods/InFalsusStudioPlus/1.06/README.md)。新增实现集中在该目录的 `Source`，通过 BepInEx/Harmony 与原编辑器协作；根目录 Unity `Assets` 保持原核心。当前入口为 `Source/VisualUIPlugin.cs`，界面、时间组和性能模块分别位于 `UI`、`TimeGroups`、`Performance`。下方原核心导航继续适用。构建整合插件应使用节点内脚本，而不是假定根 Unity 构建会自动装入它。
+
 当前基线为 **1.0.10 + Flick 尾部修正**。本目录只描述当前实现，旧版本编号文件仍可能被现行入口复用。
 
 ## 数据流与代码位置

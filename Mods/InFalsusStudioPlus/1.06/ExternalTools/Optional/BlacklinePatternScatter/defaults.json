@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "values": [
+    {
+      "key": "start",
+      "value": "0"
+    },
+    {
+      "key": "end",
+      "value": "1000"
+    },
+    {
+      "key": "xMin",
+      "value": "-0.5"
+    },
+    {
+      "key": "xMax",
+      "value": "1.5"
+    },
+    {
+      "key": "count",
+      "value": "10"
+    },
+    {
+      "key": "minGapMs",
+      "value": "0"
+    },
+    {
+      "key": "seed",
+      "value": "0"
+    }
+  ]
+}

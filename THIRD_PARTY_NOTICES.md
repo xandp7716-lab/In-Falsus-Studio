@@ -13,5 +13,7 @@
 | `Mods/BetterUI/1.2.2/Icons` | Better UI 插件配套的界面图标；随插件源码保留。 |
 | `Mods/VisualUI/1.0.39` | Visual & UI 组合插件及 GradientTiming、DeleteTiming、CopyTiming 外置工具源码；不包含提取的原生图集、AssetBundle、字体或 BepInEx 二进制。该节点的作者性代码由社区维护者提供；不为原游戏语法、名称或素材声明权利。 |
 | Native Visual 运行资源 | 原版 AssetBundle、字体和游戏界面图未纳入本仓库；配套 mod 发行包从本机 InFalsus Studio 1.0.10 提取并提供，不在此重复分发。 |
+| `Mods/InFalsusStudioPlus/1.06` | 当前社区整合插件、三个保留默认工具与两个可选工具的作者性源码。未加入编译程序、BepInEx、游戏提取运行资源、个人参数或捕获谱面；原游戏语义及名称的权利归原权利人。 |
+| `Branding/app-icon.*`、1.06 `Source/BrandAssets/about-mascot.png` | 本项目以 imagegen 根据用户提供的 Mei 参考图生成并选用的社区派生标识/描边图。未分发原角色图集。Mei 与 InFalsus 原角色和标识仍归原权利人，不表示官方背书；不为这些角色权利追加软件开源许可。 |
 
 原游戏名称、素材及参考谱面仍属于各自权利人。本编辑器的社区维护和壳子扩展不表示官方背书。新增第三方代码、素材或数据时，记录作者、来源、许可证及必要的版权/署名信息；不要把其他项目的代码许可证套用到其素材上。
