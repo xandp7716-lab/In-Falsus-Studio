@@ -10,7 +10,7 @@ Forked from [Arthas-0/In-Falsus-Studio](https://github.com/Arthas-0/In-Falsus-St
 
 ## 当前功能
 
-- 原生轨道/HUD/背景视觉与现代编辑界面；M＋ 程序图标和亮蓝 Q 版 Mei 设置描边图。
+- 原生轨道/HUD/背景视觉与现代编辑界面。
 - 多选、复制、镜像、批量编辑、SkyArea 切分与端点编辑；粘贴保留各物件的原组号和时间组。
 - 底栏快速工具：删除/复制 Timing 直接用段落和目标时间选择；SkyArea 等分、按网格切分及 Flick 转换。
 - 时间/位置端点拖移模式，可修改热键，支持鼠标侧键与中键；切窗后恢复把手与点立得。
