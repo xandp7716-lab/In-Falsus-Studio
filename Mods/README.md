@@ -4,6 +4,7 @@
 
 当前配套版本：
 
+- [Studio+ 内部源码1.075](StudioPlusSnapshots/1.075-20261101/README.md)：当前整合版149个C#源文件、Shader和构建资料。
 - [Better UI 1.2.2](BetterUI/1.2.2/README.md)：改进制谱器 UI。
 - [Native Visual 1.1.15](NativeVisual/1.1.15/README.md)：还原原生轨道、HUD 与背景视觉，并提供美化进度条。
 
